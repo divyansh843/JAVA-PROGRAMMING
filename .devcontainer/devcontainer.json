@@ -1,0 +1,14 @@
+{
+  "name": "Java Programming Environment",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "postCreateCommand": "java -version && javac -version",
+  "remoteUser": "vscode"
+}
